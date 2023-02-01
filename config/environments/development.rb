@@ -61,4 +61,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   config.hosts.clear
+  config.action_mailer.default_url_options = { host: 'https://localhost-it-nihongo3-rails-20194621-1.paiza-user-free.cloud', port: 3000 }
 end
